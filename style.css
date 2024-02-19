@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+header{
+    background-color: black;
+    color: cornflowerblue;
+}
+.container{
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    background-color: rgb(125, 133, 133);
+}
+
+.form-campo{
+    margin-bottom: 16px;
+}
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+.form-campo input,
+.form-campo textarea{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea{
+    resize: none;
+    height: 120px;
+}
+
+form{
+    max-width: 360px;
+}
+form button{max-width: 120px;}
